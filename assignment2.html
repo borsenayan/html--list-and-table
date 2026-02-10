@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Assignment2</title>
+
+
+ <style>
+.list1{
+height:200px;
+width:100%;
+background-color: rgb(40, 103, 181);
+align-items: center;
+
+
+}
+h1{
+text-align:center
+
+}
+.fruits{
+display:flex;
+justify-content: center;
+font-size:large;
+}
+
+
+
+#table{
+padding-left: 40%;
+padding-right: 30%;
+
+
+}
+
+
+.table1 table,.table1 th,.table1 td{
+border: 1px solid black;
+border-collapse: collapse;
+
+padding:20px;
+padding-bottom: 30px;
+
+}
+
+.table2 table,.table2 th,.table2 td{
+
+   border: 1px solid black;
+ 
+}
+
+.table3 table,.table3 th,.table3 td{
+border-collapse: collapse;
+   border: 1px solid black;
+ 
+}
+
+
+.table-title {
+  text-align: center;
+}
+
+.table1 {
+  margin: auto;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+.table1 th {
+  background: red;
+  color: white;
+  padding: 10px;
+}
+
+.table1 td {
+  background: #8bc34a;
+  padding: 10px;
+  text-align: center;
+  border-color: yellow;
+ 
+
+}
+
+
+
+</style>
+</head>
+<body>
+    <section id="lists">
+        <div class="list1">
+
+<h1>HTML List</h1>
+<div class="fruits">
+    
+    <ol>Fruits
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Orange</li>
+        </ol>
+
+        <ol style="margin-left: 100px;  list-style-type:disc">Vegetables
+        <li>Potato</li>
+        <li>Tomato</li>
+        <li>Onion</li>
+        </ol>
+
+        <ol style="margin-left: 100px; list-style-type:square">Groceries
+            <li>Rice</li>
+            <li>Flour</li>
+            <li>Pulses</li>
+        </ol>
+        </div>
+        </div>
+
+    <div class="list2">
+        <h1>Some of my favorites links</h1>
+        <ul><li>Social Networking</li>
+            <ul><li><a href="#">digg</a></li>
+                <li><a href="1">reddit</a></li>
+                <li><a href="2">stumbleupon</a></li>
+            </ul>
+            </ul>
+
+        <ul><li>Refferences</li>
+            <ul><li><a href="3">Google</a></li>
+                <li><a href="4">wikipedia</a></li>
+                <li><a href="5">dictionary</a></li>
+           
+            </ul>
+            </ul>
+        
+        <ul><li>Web Development</li>
+            <ul><li>HTML/CSS</li>
+                <ul><li><a href="6">w3 schools</a></li>
+                    <li><a href="7">htmlHelp</a></li>
+                    <li><a href="8">CSS zen garden</a></li>
+                    </ul>
+                    <li>Programming</li>
+                    <ul><li><a href="9">php.com</a></li>
+                    <li><a href="0">javascript</a></li>
+                    <li><a href="11">mysql.com</a></li>
+                    </ul>
+                    </ul>
+                    </ul>
+                    </div>
+    </section>
+<section id="table"><p style="padding-left: 20%; font-size: larger;">HTML Table</p>
+    <div class="table1">
+<table>
+  <thead>
+    <tr>
+        <th>First Name</th>
+        <th>lastname</th>
+        <th>Position</th>
+        <th>Salary</th>
+        </tr>
+        </thead>
+<tbody>
+    <tr>
+        <td>James</td>
+        <td>Jeo</td>
+        <td>CEO</td>
+        <td>$13000</td>
+        </tr>
+    <tr>
+          <td>Kate</td>
+        <td>Harns</td>
+        <td>Designer</td>
+        <td>$1000</td>        
+        </tr>
+    <tr>
+          <td>Bryan</td>
+        <td>Brain</td>
+        <td>Team Leader</td>
+        <td>$700</td>        
+        </tr>
+    <tr>
+          <td>Lesse</td>
+        <td>Prcnic</td>
+        <td>Author</td>
+        <td>$500</td>        
+        </tr>
+        </tbody>
+        
+            
+
+
+</table><br><br></div>
+</section>
+
+
+
+<section class="table2">
+<div class="table2">
+<table>
+
+<thead style="background-color: aqua;">
+<tr>
+    <th>Device</th>
+    <th>Brand</th>
+    <th colspan="2">Specification</th>
+    
+</tr>
+
+</thead>
+<tbody>
+    <tr>
+        <td rowspan="3" >Smartphone</td>
+        <td rowspan="3">Apple</td>
+       <th style="background-color: yellow;"> model</th>
+       <th style="background-color: yellow;"> Storage</th>
+       <tr> <td>iphone 12pro</td>
+        <td>256GB</td></tr>
+       <tr> <td>iphone 13</td>
+        <td>128GB</td>
+
+    </tr>
+        </tr>
+    <tr>
+        <td>laptop</td>
+        <td>HP</td>
+        <td colspan="2">15'6 Display</td>
+    </tr>
+    <tr>
+        <td>Tablet</td>
+        <td>samsung</td>
+        <td colspan="2">10'6 Display</td>
+        </tr>
+   
+</table><br><br>
+    </section>
+
+<section class="table3">
+<div class="table3">
+<table>
+
+<thead>
+<tr>
+    <th rowspan="2" ></th>
+    <th colspan="2" >Average</th>
+    <th rowspan="2" >Red Eyes</th>
+    
+</tr>
+
+</thead>
+<tbody>
+    <tr>
+       <td></td>
+       <th> height</th>
+       <th> weight</th>
+       <td></td>
+       </tr>
+    <tr>
+        <th>Male</th>
+        <td>1.9</td>
+        <td>0.003</td>
+        <td>40%</td>
+        </tr>
+
+     <tr>
+        <th>Female</th>
+        <td>1.7</td>
+        <td>0.002</td>
+        <td>47%</td>
+        </tr>
+       
+   
+</table>
+    </section>
+
+
+
+
+</body>
+
+
+</html>

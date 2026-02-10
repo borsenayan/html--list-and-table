@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background: #fff;
+    padding: 25px;
+   
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+h2 {
+    color: #b23b3b;
+    margin-bottom: 15px;
+    
+    padding-bottom: 5px;
+}
+
+.menu h3 {
+    margin-top: 15px;
+    color: #444;
+}
+
+.menu ul, .menu ol {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.menu li {
+    padding: 5px 0;
+}
